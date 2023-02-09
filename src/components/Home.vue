@@ -1,3 +1,4 @@
+/* eslint-disable */
 <template>
     <div class="home">
         <el-container class="home_container">

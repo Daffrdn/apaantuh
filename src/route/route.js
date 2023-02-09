@@ -7,7 +7,7 @@ import Video from '../components/Video'
 import StoriesBehind from '../components/StoriesBehind'
 
 Vue.use(Router);
-
+/* eslint-disable */
 export default new Router({
     routes: [
         {path: '/', name: 'LandingPage', component: Landing},

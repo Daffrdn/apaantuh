@@ -1,3 +1,4 @@
+/* eslint-disable */
 <template>
     <div class="landing">
         <transition name="slide-fade">

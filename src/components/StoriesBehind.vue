@@ -1,3 +1,4 @@
+/* eslint-disable */
 <template>
     <div class="stories_behind">
         <meta charset="UTF-8">

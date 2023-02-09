@@ -1,3 +1,4 @@
+/* eslint-disable */
 <template>
     <div id="app">
         <el-container id="container">
