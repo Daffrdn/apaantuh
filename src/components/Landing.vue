@@ -16,7 +16,7 @@
                 "It's about you and your birthday...",
                 "About celebrations and wishes...",
                 "Are you ready for the experience...?",
-                "Welcome to YourDomain.com"
+                "Happy Birthday Patmasari Febriyana <3"
             ];
             return {
                 message: "",

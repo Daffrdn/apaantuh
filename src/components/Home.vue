@@ -4,7 +4,16 @@
 
             <!-- Cake and buttons  -->
             <el-main class="home_content">
-
+                <el-row type="flex" class="button_row" justify="center">
+                    <el-col :xs="16" :sm="16" :md="12" :lg="6" :xl="6">
+                        <transition name="slide-fade">
+                            <el-button class="home_button" plain type="danger"
+                                       icon="el-icon-ice-cream-round">
+                                Patmasari Febriyana
+                            </el-button>
+                        </transition>
+                    </el-col>
+                </el-row>
                 <!-- Birthday cake -->
                 <el-row :gutter="10" type="flex" class="home_row cake_row" justify="center">
                     <el-col :xs="20" :sm="16" :md="12" :lg="6" :xl="6">
@@ -32,14 +41,14 @@
                         <transition name="slide-fade">
                             <el-button @click="goMessages()" class="home_button" plain type="danger"
                                        icon="el-icon-ice-cream-round" v-if="showButtons">
-                                Messages
+                                Gallery Mbull
                             </el-button>
                         </transition>
                     </el-col>
                 </el-row>
 
                 <!-- Video -->
-                <el-row type="flex" class="button_row" justify="center">
+                <!-- <el-row type="flex" class="button_row" justify="center">
                     <el-col :xs="16" :sm="16" :md="12" :lg="6" :xl="6">
                         <transition name="slide-fade">
                             <el-button @click="goVideo()" class="home_button" plain type="danger"
@@ -48,7 +57,7 @@
                             </el-button>
                         </transition>
                     </el-col>
-                </el-row>
+                </el-row> -->
 
                 <!-- Stories Behind -->
                 <el-row type="flex" class="button_row" justify="center">
@@ -56,7 +65,7 @@
                         <transition name="slide-fade">
                             <el-button @click="goStoriesBehind()" class="home_button" plain type="danger"
                                        icon="el-icon-cold-drink" v-if="showButtons">
-                                Stories Behind
+                                For me untuk mbull
                             </el-button>
                         </transition>
                     </el-col>

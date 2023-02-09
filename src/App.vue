@@ -4,7 +4,7 @@
             <vue-page-transition name="fade">
                 <router-view class="view"></router-view>
             </vue-page-transition>
-            <el-footer>🤍 Happy Birthday 🤍</el-footer>
+            <el-footer>🤍 Happy Birthday Patmasari Febriayana 🤍</el-footer>
         </el-container>
     </div>
 </template>
